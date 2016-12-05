@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="titleText" format="string" />
+    <attr name="titleTextSize" format="dimension" />
+    <attr name="titleTextColor" format="color" />
+    <attr name="image" format="reference" />
+    <attr name="imageScaleType">
+        <enum name="fillXY" value="0" />
+        <enum name="center" value="1" />
+    </attr>
+
+    <declare-styleable name="CustomImageView">
+        <attr name="titleText" />
+        <attr name="titleTextSize" />
+        <attr name="titleTextColor" />
+        <attr name="image" />
+        <attr name="imageScaleType" />
+    </declare-styleable>
+
+    <!--下面的文字text-->
+    <attr name="below_text" format="string" />
+    <!--下面的文字大小-->
+    <attr name="below_text_size" format="dimension" />
+    <!--下面的文字颜色-->
+    <attr name="below_text_color" format="color" />
+    <!--边框的颜色-->
+    <attr name="border_color" format="color" />
+    <!--里面填充的颜色-->
+    <attr name="fill_color" format="color" />
+    <!--对应的图标-->
+    <attr name="icon_img" format="reference" />
+    <!--边框的大小 -->
+    <attr name="border_size" format="dimension" />
+
+    <declare-styleable name="MyCustomView">
+        <attr name="below_text" />
+        <attr name="below_text_size" />
+        <attr name="below_text_color" />
+        <attr name="icon_img" />
+        <attr name="border_color"/>
+        <attr name="fill_color"/>
+        <attr name="border_size" />
+    </declare-styleable>
+</resources>

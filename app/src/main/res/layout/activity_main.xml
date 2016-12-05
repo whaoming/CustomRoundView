@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto"
+    android:background="#4876FF"
+    android:orientation="horizontal"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wxxiaomi.ming.customroundview.MainActivity">
+
+    <com.wxxiaomi.ming.customroundview.CustomImageView
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        zhy:icon_img="@mipmap/ic_favorite_black"
+        zhy:below_text="Followers"
+        zhy:below_text_size="12sp"
+        zhy:fill_color="#50000000"
+        zhy:below_text_color="#ffffff"
+        />
+    <com.wxxiaomi.ming.customroundview.CustomImageView
+        android:layout_margin="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="100dp"
+        zhy:icon_img="@mipmap/ic_person_outline_white_36dp"
+        zhy:below_text="广东揭阳"
+        zhy:below_text_size="10sp"
+        zhy:below_text_color="#ffffff"
+        zhy:border_color="#ffffff"
+        zhy:border_size="1dp"
+        />
+    <com.wxxiaomi.ming.customroundview.CustomImageView
+        android:layout_margin="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="100dp"
+        zhy:icon_img="@mipmap/ic_favorite_black"
+        zhy:below_text="ssss"
+        zhy:below_text_size="12sp"
+        zhy:fill_color="#50000000"
+        zhy:below_text_color="#ffffff"
+        />
+
+</LinearLayout>
